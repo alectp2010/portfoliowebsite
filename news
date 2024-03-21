@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLCM5WWJ0X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-DLCM5WWJ0X');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles and Videos</title>
+    <style>
+        .back-to-main {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Articles and Videos</h1>
+    
+    <h2>News Articles</h2>
+    <ul>
+        <li><a href="https://www.14news.com/2021/06/22/daviess-co-high-school-graduate-featured-reboot-nbc-show/">NBC's Capital One College Bowl</a></li>
+    </ul>
+    
+    <h2>College Bowl</h2>
+    <!-- Embedding YouTube videos -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/11fn7lJEkmI&t=2s" frameborder="0" allowfullscreen></iframe>
+  
+    <!-- Button to return to main page -->
+    <button class="back-to-main" onclick="window.location.href = 'https://alecphelps.com';">Back to Main Page</button>
+</body>
+</html>
