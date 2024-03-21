@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLCM5WWJ0X"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -10,13 +10,10 @@
     
       gtag('config', 'G-DLCM5WWJ0X');
     </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alec Phelps</title>
-    <meta name="description" content="Alec Phelps Owensboro Kentucky, College Bowl, Banking, Finance, Marketing. MS in Marketing & BS in Commerce and Business Administration with a focus in Finance. National Merit Finalist. University of Alabama Student.">
-    <meta name="keywords" content="Alec, Phelps, Alec T Phelps, Alec Thomas Phelps, Alec Phelps Finance, Alec Phelps Marketing, Alec Phelps Banking, Alec Phelps College Bowl">
-    <!-- Thumbnail for Google Search -->
-    <meta property="og:image" content="thumbnail.jpg">
+    <title>Articles and Videos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,53 +32,61 @@
             margin: 20px auto;
             padding: 0 20px;
         }
-        h1 {
-            margin-top: 0;
+        h1, h2 {
+            margin-top: 20px;
         }
-        img {
-            max-width: 200px;
-            height: auto;
-            float: left;
-            margin-right: 20px;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .linkedin-btn {
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        iframe {
+            margin-bottom: 20px;
+        }
+        .linkedin-btn, .news-btn {
             display: inline-block;
-            background-color: #0077b5;
-            color: #fff;
             padding: 10px 20px;
-            text-decoration: none;
+            background-color: #0077b5; /* LinkedIn button color */
+            color: #fff;
+            border: none;
             border-radius: 5px;
+            cursor: pointer;
             margin-top: 20px;
+            margin-bottom: 20px;
         }
-        .newpage-btn {
-            display: block;
-            background-color: #0077b5;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            text-align: center;
+        .news-btn {
+            background-color: #CD201F; /* News button color */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Alec Phelps</h1>
+        <h1>Articles and Videos</h1>
     </header>
     <div class="container">
-        <!-- Image positioned on the left side -->
-        <img src="placeholder.jpg" alt="Photo of Alec Phelps">
+        <h2>News Articles</h2>
+        <ul>
+            <li><a href="https://www.14news.com/2021/06/22/daviess-co-high-school-graduate-featured-reboot-nbc-show/">NBC's Capital One College Bowl</a></li>
+        </ul>
         
-        <!-- Information positioned below the image -->
-        <h2>About Me</h2>
-        <p>MS in Marketing & BS in Commerce and Business Administration with a focus in Finance | National Merit Finalist | University of Alabama Student</p>
-
-        <!-- LinkedIn button below the "About Me" section -->
+        <h2>College Bowl</h2>
+        <!-- Embedding YouTube videos -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/11fn7lJEkmI" frameborder="0" allowfullscreen></iframe>
+    
+        <!-- LinkedIn button -->
         <a href="https://www.linkedin.com/in/alectphelps" class="linkedin-btn">Visit LinkedIn Profile</a>
         
-        <!-- Button linking to the new webpage -->
-        <a href="articles_and_videos.html" class="newpage-btn">Articles and Videos</a>
+        <!-- News button -->
+        <button class="news-btn" onclick="window.location.href = 'https://alecphelps.com/news';">News</button>
     </div>
 </body>
 </html>
