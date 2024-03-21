@@ -15,30 +15,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles and Videos</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1, h2 {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        iframe {
+            margin-bottom: 20px;
+        }
         .back-to-main {
+            display: block;
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #0077b5;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Articles and Videos</h1>
+    <header>
+        <h1>Articles and Videos</h1>
+    </header>
+    <div class="container">
+        <h2>News Articles</h2>
+        <ul>
+            <li><a href="https://www.14news.com/2021/06/22/daviess-co-high-school-graduate-featured-reboot-nbc-show/">NBC's Capital One College Bowl</a></li>
+        </ul>
+        
+        <h2>College Bowl</h2>
+        <!-- Embedding YouTube videos -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/11fn7lJEkmI" frameborder="0" allowfullscreen></iframe>
     
-    <h2>News Articles</h2>
-    <ul>
-        <li><a href="https://www.14news.com/2021/06/22/daviess-co-high-school-graduate-featured-reboot-nbc-show/">NBC's Capital One College Bowl</a></li>
-    </ul>
-    
-    <h2>College Bowl</h2>
-    <!-- Embedding YouTube videos -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/11fn7lJEkmI&t=2s" frameborder="0" allowfullscreen></iframe>
-  
-    <!-- Button to return to main page -->
-    <button class="back-to-main" onclick="window.location.href = 'https://alecphelps.com';">Back to Main Page</button>
+        <!-- Button to return to main page -->
+        <button class="back-to-main" onclick="window.location.href = 'https://alecphelps.com';">Back to Main Page</button>
+    </div>
 </body>
 </html>
